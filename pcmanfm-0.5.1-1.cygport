@@ -1,5 +1,5 @@
 DESCRIPTION="Lightweight GTK+ file manager"
 HOMEPAGE="http://pcmanfm.sourceforge.net/"
-SRC_URI="mirror://sourceforge/pcmanfm/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/pcmanfm/${P}.tar.bz2"
 
 CYGCONF_ARGS="--disable-hal"

@@ -4,28 +4,29 @@ An extremly fast and lightweight file manager which features tabbed
 browsing and user-friendly interface.
 
 Runtime requirements:
-  cygwin-1.5.25-15
-  libcairo2-1.8.6-1
-  libfam0-0.1.10-2
-  libgdk_pixbuf2.0_0-2.14.7-2
-  libglib2.0_0-2.18.4-1
-  libgtk2.0_0-2.14.7-2
-  libintl8-0.17-2
-  libpango1.0_0-1.22.4-1
-  libstartup-notification1_0-0.9-2
-  libX11_6-1.1.5-2
+  cygwin-1.7.0-50
+  libcairo2-1.8.8-1
+  libfam0-0.1.10-10
+  libgcc1-4.3.2-2
+  libgdk_pixbuf2.0_0-2.16.3-1
+  libglib2.0_0-2.20.4-1
+  libgtk2.0_0-2.16.3-1
+  libintl8-0.17-11
+  libpango1.0_0-1.24.3-1
+  libstartup-notification1_0-0.10-1
+  libX11_6-1.2.1-1
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.63-1
-  automake1.10-1.10.1-2
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
   binutils-20080624-2
-  cygport-0.4.2-1
-  gawk-3.1.6-1
-  gcc-core-3.4.4-3
-  libtool-2.2.6a-1
-  make-3.81-1
-  pkg-config-0.23a-2
+  cygport-0.9.7-1
+  gawk-3.1.6-2
+  gcc4-core-4.3.2-2
+  libtool-2.2.7a-13
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -37,15 +38,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack pcmanfm-0.5-X-src.tar.bz2
+  unpack pcmanfm-0.5.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./pcmanfm-0.5-X.cygport all
+  cygport ./pcmanfm-0.5.1-X.cygport all
 
 This will create:
-  /usr/src/pcmanfm-0.5-X-src.tar.bz2
-  /usr/src/pcmanfm-0.5-X.tar.bz2
+  /usr/src/pcmanfm-0.5.1-X-src.tar.bz2
+  /usr/src/pcmanfm-0.5.1-X.tar.bz2
 
 -------------------------------------------
 
@@ -56,51 +57,68 @@ Files included in the binary package:
   /usr/share/applications/pcmanfm-find.desktop
   /usr/share/applications/pcmanfm-folder-handler.desktop
   /usr/share/applications/pcmanfm.desktop
-  /usr/share/doc/pcmanfm-0.5/AUTHORS
-  /usr/share/doc/pcmanfm-0.5/COPYING
-  /usr/share/doc/pcmanfm-0.5/INSTALL
-  /usr/share/doc/pcmanfm-0.5/README
-  /usr/share/doc/pcmanfm-0.5/TODO
+  /usr/share/doc/pcmanfm/AUTHORS
+  /usr/share/doc/pcmanfm/COPYING
+  /usr/share/doc/pcmanfm/ChangeLog
+  /usr/share/doc/pcmanfm/README
+  /usr/share/doc/pcmanfm/TODO
+  /usr/share/locale/af/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/ar/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/ca/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/cs/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/da/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/de/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/es/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/et/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/eu/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/fa/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/fi/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/fr/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/gl/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/he/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/hr/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/hu/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/id/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/it/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/ja/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/ko/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/lt/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/ml/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/ms/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/nb/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/nl/LC_MESSAGES/pcmanfm.mo
-  /usr/share/locale/no/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/nn/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/pl/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/ps/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/pt/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/pcmanfm.mo
-  /usr/share/locale/pt_PT/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/ru/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/sk/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/sl/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/sv/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/tr/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/uk/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/ur/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/ur_PK/LC_MESSAGES/pcmanfm.mo
+  /usr/share/locale/vi/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/zh_CN/LC_MESSAGES/pcmanfm.mo
   /usr/share/locale/zh_TW/LC_MESSAGES/pcmanfm.mo
   /usr/share/mime/packages/libmimetype.xml
-  /usr/share/pcmanfm/icons/file.png
-  /usr/share/pcmanfm/icons/folder.png
   /usr/share/pcmanfm/mount.rules
-  /usr/share/pcmanfm/ui/about-dlg.glade
-  /usr/share/pcmanfm/ui/appchooserdlg.glade
-  /usr/share/pcmanfm/ui/file_properties.glade
-  /usr/share/pcmanfm/ui/find-files.glade
-  /usr/share/pcmanfm/ui/prefdlg.glade
+  /usr/share/pcmanfm/ui/about-dlg.ui
+  /usr/share/pcmanfm/ui/appchooserdlg.ui
+  /usr/share/pcmanfm/ui/file_properties.ui
+  /usr/share/pcmanfm/ui/find-files.ui
+  /usr/share/pcmanfm/ui/godlg.ui
+  /usr/share/pcmanfm/ui/prefdlg.ui
   /usr/share/pixmaps/pcmanfm.png
 
 ------------------
 
 Port Notes:
 
------ version 0.5-1 -----
-Initial release for Cygwin.
+----- version 0.5.1-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
