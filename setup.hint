@@ -1,5 +1,5 @@
 category: X11
-requires: libcairo2 libfam0 libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0 libstartup-notification1_0 libX11_6
+requires: libcairo2 libfam0 libgcc1 libgdk_pixbuf2.0_0 libglib2.0_0 libgtk2.0_0 libintl8 libpango1.0_0 libstartup-notification1_0 libX11_6 desktop-file-utils shared-mime-info
 sdesc: "Lightweight GTK+ file manager"
 ldesc: "An extremly fast and lightweight file manager which features 
 tabbed browsing and user-friendly interface."
