@@ -1,0 +1,8 @@
+inherit gnome2
+
+CATEGORY="LXDE"
+SUMMARY="Lightweight GTK+ file manager"
+DESCRIPTION="An extremly fast and lightweight file manager which features
+tabbed browsing and user-friendly interface."
+HOMEPAGE="http://pcmanfm.sourceforge.net/"
+SRC_URI="mirror://sourceforge/pcmanfm/${P}.tar.gz"
