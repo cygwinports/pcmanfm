@@ -1,11 +1,11 @@
 inherit gnome2
 
 NAME="pcmanfm"
-VERSION=1.0.1
+VERSION=1.1.1
 RELEASE=1
 CATEGORY="LXDE"
 SUMMARY="Lightweight GTK+ file manager"
 DESCRIPTION="An extremly fast and lightweight file manager which features
 tabbed browsing and user-friendly interface."
 HOMEPAGE="http://pcmanfm.sourceforge.net/"
-SRC_URI="mirror://sourceforge/pcmanfm/${P}.tar.gz"
+SRC_URI="mirror://sourceforge/pcmanfm/pcmanfm-${VERSION}.tar.gz"
