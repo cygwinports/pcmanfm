@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="pcmanfm"
-VERSION=1.2.0
+VERSION=1.2.3
 RELEASE=1
 CATEGORY="LXDE"
 SUMMARY="Lightweight GTK+ file manager"
