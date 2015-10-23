@@ -5,7 +5,7 @@ VERSION=1.2.3
 RELEASE=1
 CATEGORY="LXDE"
 SUMMARY="Lightweight GTK+ file manager"
-DESCRIPTION="An extremly fast and lightweight file manager which features
+DESCRIPTION="An extremely fast and lightweight file manager which features
 tabbed browsing and user-friendly interface."
 HOMEPAGE="http://pcmanfm.sourceforge.net/"
 SRC_URI="mirror://sourceforge/pcmanfm/pcmanfm-${VERSION}.tar.xz"
